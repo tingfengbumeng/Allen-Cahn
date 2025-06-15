@@ -7,9 +7,7 @@ Allen-Cahn 方程是一种非线性反应-扩散方程，描述多组分合金�
 
 - **定义域**: $x \in [-1, 1]$, $t \in [0, 1]$
 - **方程**:
-  $$
-  \frac{\partial u}{\partial t} = 0.001 \frac{\partial^2 u}{\partial x^2} + 5(u - u^3)
-  $$
+  $$\frac{\partial u}{\partial t} = 0.001 \frac{\partial^2 u}{\partial x^2} + 5(u - u^3)$$
 - **边界条件**: $u(-1, t) = -1$, $u(1, t) = -1$
 - **初始条件**: $u(x, 0) = x^2 \cos(\pi x)$
 
